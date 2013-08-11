@@ -1,12 +1,11 @@
 ﻿---
-title: Jozef Izso's User Page on Github
-layout: wikistyle
+layout: default
+title: Jozef Izso on GitHub
 ---
 
-Jozef Izso
+Welcome to Jozef Izso on GitHub Pages
 ============
 
-My projects on GitHub:
 
-* [OpenLayers - Visual Studio IntelliSense](http://github.com/jozefizso/openlayers)
-
+I use Yeoman for developing static web pages and Boxen for managing my Mac.
+You can find a lot of modules for Boxen and some packages for Bower and Yeoman generators.

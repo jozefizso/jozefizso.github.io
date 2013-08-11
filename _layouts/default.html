@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
-    <link href="http://github.com/stylesheets/bundle_common.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="http://github.com/stylesheets/bundle_github.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="http://pages.github.com/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
-    <meta name="google-site-verification" content="4Tayr6jc1ugkyFTsLlmsOXF5f5OjxrYgHKv-HDoT_NE" />
-    <script type="text/javascript">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-119309-8']);
-        _gaq.push(['_trackPageview']);
+  <title>{{ page.title }}</title>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="stylesheets/styles.css">
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <!--[if lt IE 8]>
+  <link rel="stylesheet" href="stylesheets/ie.css">
+  <![endif]-->
+  <script type="text/javascript">
 
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-119309-8']);
+    _gaq.push(['_trackPageview']);
 
-    </script>
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
 </head>
 <body>
 <div id="main">
-  <div id="header" class="basic" style="margin-bottom:20px">
+  <div id="header">
+    <nav>
+      <li class="fork"><a href="https://github.com/jozefizso">View On GitHub</a></li>
+    </nav>
+  </div><!-- end header -->
 
-    <div class="site">
-      <div class="logo boring">
-        <img src="http://www.gravatar.com/avatar/8496c3885653e026bc72db12aa9444d9" width="80" height="80" alt="Jozef Izso Photo" />
+  <div class="wrapper">
+    <section>
+      <div id="title">
+        <h1>Jozef Izso</h1>
+        <p>(jozefizso.github.io)</p>
+        <hr>
       </div>
-      <div class="topsearch">
-        <ul class="nav logged_out" style="margin-top:20px">
-          <li><a href="http://github.com/jozefizso/openlayers" title="OpenLayers - Visual Studio IntelliSense">Back to OpenLayers (with Vsdoc)</a></li>
-        </ul>
-      </div>
-    </div>
+
+      {{ content }}
+
+    </section>
+
+    <footer>
+      <hr>
+      <span class="credits left">Project maintained by <a href="https://github.com/jozefizso">jozefizso</a></span>
+      <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+    </footer>
+
   </div>
 
-  <div id="content" class="site">
-
-    {{ content }}
-
-  </div>
-
-  <div class="push"></div>
-</div>
-
-<div id="footer">
-  <div class="site">
-
-    <div class="info">
-      <div class="links">
-        <a href="http://izsak.net">Jozef Izso</a>
-      </div>
-      <div class="company">
-        Page is using
-        the <a href="http://pages.github.com/">GitHub Pages</a> style.
-      </div>
-    </div>
-  </div>
-</div>
+  <!--[if !IE]>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="js/respond.js"></script>
+  <script>fixScale(document);</script>
+  <![endif]-->
 </body>
 </html>

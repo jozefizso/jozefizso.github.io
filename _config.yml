@@ -1,0 +1,18 @@
+name: "Jozef Izso on GitHub"
+description: ""
+
+url: "jozefizso.github.io"
+
+exclude: ["readme.md", "x"]
+
+markdown: redcarpet
+pygments: true
+
+safe: true
+lsi: false
+
+
+author:
+  name: Jozef Izso
+  email: jozef.izso@gmail.com
+  github: jozefizso

@@ -1,4 +1,4 @@
-﻿Jozef Izso's User Page on Github
+﻿Jozef Izso on GitHub Pages
 =================================
 
-[http://jozefizso.github.com/](http://jozefizso.github.com/)
+[jozefizso.github.io](http://jozefizso.github.io/)
