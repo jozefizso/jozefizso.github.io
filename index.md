@@ -1,10 +1,9 @@
-﻿---
+---
 layout: default
 title: Jozef Izso on GitHub
 ---
 
-Welcome to Jozef Izso on GitHub Pages
-============
+# Welcome
 
 
 I use Yeoman for developing static web pages and Boxen for managing my Mac.
