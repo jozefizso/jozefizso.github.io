@@ -6,7 +6,7 @@ url: "jozefizso.github.io"
 exclude: ["readme.md", "x"]
 
 markdown: kramdown
-pygments: true
+highlighter: rouge
 
 safe: true
 lsi: false
