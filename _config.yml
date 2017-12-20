@@ -5,7 +5,7 @@ url: "jozefizso.github.io"
 
 exclude: ["readme.md", "x"]
 
-markdown: redcarpet
+markdown: kramdown
 pygments: true
 
 safe: true
